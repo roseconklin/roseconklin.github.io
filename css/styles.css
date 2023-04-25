@@ -1,0 +1,144 @@
+body {
+  background-color: rgb(238, 203, 138);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+p {
+  background-color:rgb(238, 203, 138);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+}
+
+h1 {
+  font-size: 60pt;
+  color: black;
+  font-weight: 1000;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40pt;
+  color: black;
+  font-weight: 800;
+  text-align: center;
+  background-color: white;
+}
+
+h3 {
+  font-size: 20pt;
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  background-color: rgb(89, 89, 126);
+}
+
+
+/*
+.li {
+  width: 33%;
+  min-width: 120px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 2px;
+  margin-top:5px;
+}
+*/
+a.home {
+  color: black;
+  text-decoration: none;
+}
+a.home:visited {
+  color: rgb(110, 43, 53);
+}
+
+a.about {
+  color: black;
+  text-decoration: none;
+}
+a.about:visited {
+  color: rgb(110, 43, 53);
+}
+
+a.website {
+  color: black;
+  text-decoration: none;
+}
+a.website:visited {
+  color: rgb(110, 43, 53);
+}
+
+a.instagram {
+  color: black;
+  text-decoration: none;
+}
+a.instagram:visited {
+  color: rgb(110, 43, 53);
+}
+
+/* a {
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+*/
+
+.menubar li {
+    display: inline-block;  
+    display: center;
+    width: 24%;
+    min-width: 120px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    background-color:white;
+    color: black;
+    border-radius: 2px;
+    margin-top: 2px;
+  }
+  
+
+.menubar li:hover {
+    background:rgb(89, 89, 126);
+  }
+
+.menubar li:hover a {
+  color: white;
+}
+
+.menubar li:visited a {
+  color: rgb(110, 43, 53);
+}  
+
+#tourdates {
+  width: 600px;
+  height: 800px;
+  position: relative;
+}
+
+.container {
+position: relative;
+  background-color: rgb(89, 89, 126);
+width: 100%;
+margin: 0rem auto;
+}
+
+.box1 {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  bottom: 90%;
+  background-color: rgb(89, 89, 126);
+  color: white;
+}
+
+footer {
+  color: white;
+  text-align: center;
+}
